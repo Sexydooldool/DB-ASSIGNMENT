@@ -1,0 +1,25 @@
+body {
+	background-color: #020617;
+}
+
+/* Styling for scrollbars */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	/* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+	background: #000;
+	/* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+	background: #475569;
+	/* Color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #f8fafc;
+	/* Color of the scrollbar thumb on hover */
+}
